@@ -58,6 +58,11 @@ Cherry Blog is modern style free responsive WordPress theme. Cherry Blog can be 
 
 == CHANGE LOG ==
 
+= Version 1.0.7 =
+* Minor Design issues fixed.
+* Fixed Mobile Nav (Keyboard Navigation)
+* 
+
 = Version 1.0.6 =
 * Escaping While Outputting Data.
 

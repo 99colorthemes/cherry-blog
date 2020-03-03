@@ -12,14 +12,14 @@ get_header();
     <div class="sy-body">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9 col-md-12 col-sm-12">
-                    <section id="primary" class="content-area">
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div id="primary" class="content-area sy-content-area">
                         <main id="main" class="site-main">
 
                         <?php if ( have_posts() ) : ?>
 
                             <header class="page-header">
-                                <h1 class="page-title">
+                                <h1 class="page-title mt-0">
                                     <?php
                                     /* translators: %s: search query. */
                                     printf( esc_html__( 'Search Results for: %s', 'cherry-blog' ), '<span>' . get_search_query() . '</span>' );
@@ -51,9 +51,9 @@ get_header();
                         ?>
 
                         </main><!-- #main -->
-                    </section><!-- #primary -->
+                    </div><!-- #primary -->
                 </div>
-                <div class="col-lg-3 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <?php get_sidebar(); ?>
                 </div>
             </div>

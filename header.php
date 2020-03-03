@@ -72,7 +72,7 @@ if ( function_exists( 'wp_body_open' ) ) {
                     </div>
                     <div class="col-lg-6 col-1">
                         <div class="d-flex align-items-center justify-content-lg-between">
-                            <div id="main-nav" class="ass">
+                            <div id="main-nav" class="nnc-nav">
                                 <nav id="site-navigation" class="main-navigation">
                                     <div id="close-menu" class="sy-close-menu d-lg-none mb-4 l-h-0" title="close">
                                         <svg class="sy-icon sy-icon--md">
@@ -92,7 +92,7 @@ if ( function_exists( 'wp_body_open' ) ) {
                     <div class="col-lg-3 col-4">
                         <div class="d-flex justify-content-end">
                             <div class="d-none d-lg-block d-md-block">
-                                <div class="d-flex">
+                                <div class="d-flex align-items-center h-100">
                                     <?php if ($cherry_blog_social_link) : ?>
                                         <div class="sy-header__social d-flex l-h-0">
                                             <?php if ($cherry_blog_facebook_link) : ?>
@@ -131,13 +131,13 @@ if ( function_exists( 'wp_body_open' ) ) {
                                     <?php endif; ?>
                                 </div>
                             </div>
-                            <div id="mobile-menu" class="sy-mobile-menu d-lg-none d-block ml-5 l-h-0">
-                                <svg class="sy-icon sy-icon--md">
+                            <button id="mobile-menu" class="sy-mobile-menu d-lg-none d-block l-h-0">
+                                <svg class="sy-icon sy-icon--primary sy-icon--lg">
                                     <use xlink:href="#sy-icon-menu"></use>
                                 </svg>
-                            </div>
+                            </button>
                             <?php if ($cherry_blog_searchbox) : ?>
-                                <button role="button" id="sy-search" class="sy-header__search p-0 bg-none l-h-0">
+                                <button role="button" id="sy-search" title="Search" class="sy-header__search p-0 bg-none l-h-0">
                                     <svg class="sy-icon sy-icon--md cherry-blog-search-icon">
                                         <use xlink:href="#sy-icon-search"></use>
                                     </svg>

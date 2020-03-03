@@ -15,7 +15,7 @@ $cherry_blog_sidebar = get_theme_mod('cherry_blog_homepage_sidebar', 0);
 <?php if ($cherry_blog_sidebar) : ?>
 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
 <?php else : ?>
-    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 d-flex">
 <?php endif; ?>
 
     <article id="post-<?php the_ID(); ?>" <?php post_class( $post_class ); ?>>

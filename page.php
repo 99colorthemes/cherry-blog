@@ -17,8 +17,8 @@ get_header();
     <div class="sy-body">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9 col-md-12 col-sm-12">
-                    <div id="primary" class="content-area">
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div id="primary" class="content-area sy-content-area">
                         <main id="main" class="site-main">
 
                         <?php
@@ -38,7 +38,7 @@ get_header();
                         </main><!-- #main -->
                     </div><!-- #primary -->
                 </div>
-                <div class="col-lg-3 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <?php get_sidebar(); ?>
                 </div>
             </div>

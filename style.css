@@ -578,7 +578,7 @@ textarea {
 	border: 1px solid #ececec;
 	border-radius: 3px;
 	padding: 6px;
-	background-color: #ececec;
+	background-color: #fff;
 }
 
 input[type="text"]:focus,
@@ -652,7 +652,7 @@ a:hover, a:active {
 }
 
 .main-navigation ul ul {
-	border: 1px solid #ececec;
+    box-shadow: 0 0 4px 0 #eee;
 	float: left;
 	position: absolute;
 	top: 5rem;
@@ -662,6 +662,7 @@ a:hover, a:active {
 	transition: all 400ms ease-in-out;
 	opacity: 0;
 	visibility: hidden;
+
 }
 
 .main-navigation ul ul ul {
@@ -723,7 +724,7 @@ li.menu-item-has-children:after {
 	cursor: pointer;
 }
 
-.ass.active {
+.nnc-nav.active {
 	background: #eee;
 	position: fixed;
 	z-index: 9;
@@ -738,11 +739,11 @@ li.menu-item-has-children:after {
 }
 
 @media only screen and (max-width: 991px) {
-	.ass .main-navigation {
+	.nnc-nav .main-navigation {
 		display: none;
 	}
 
-	.ass.active .main-navigation {
+	.nnc-nav.active .main-navigation {
 		display: block;
 	}
 

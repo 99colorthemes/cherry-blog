@@ -14,7 +14,7 @@
                         <input type="search"
                                autofocus
                                class="search-field"
-                               placeholder="<?php esc_attr_e('Search', 'cherry-blog'); ?>"
+                               placeholder="<?php esc_attr_e('Search...', 'cherry-blog'); ?>"
                                value=""
                                name="s">
                     </label>

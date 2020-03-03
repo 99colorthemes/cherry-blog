@@ -20,27 +20,27 @@
 
     <footer id="colophon" class="site-footer nnc-footer bg-white">
         <div class="container-fluid">
-            <div class="nnc-footer-box nnc-footer-column-<?php echo cherry_blog_footer_count(); ?>">
+            <div class="nnc-footer__block nnc-footer-column-n">
                 <?php if( is_active_sidebar( 'cherry_blog_footer_section_1' ) ) : ?>
-                    <div class="nnc-footer-block">
+                    <div class="nnc-footer__item">
                         <?php dynamic_sidebar( 'cherry_blog_footer_section_1' )?>
                     </div>
                 <?php endif; ?>
 
                 <?php if( is_active_sidebar( 'cherry_blog_footer_section_2' ) ) : ?>
-                    <div class="nnc-footer-block">
+                    <div class="nnc-footer__item">
                         <?php dynamic_sidebar( 'cherry_blog_footer_section_2' )?>
                     </div>
                 <?php endif; ?>
 
                 <?php if( is_active_sidebar( 'cherry_blog_footer_section_3' ) ) : ?>
-                    <div class="nnc-footer-block">
+                    <div class="nnc-footer__item">
                         <?php dynamic_sidebar( 'cherry_blog_footer_section_3' )?>
                     </div>
                 <?php endif; ?>
 
                 <?php if( is_active_sidebar( 'cherry_blog_footer_section_4' ) ) : ?>
-                    <div class="nnc-footer-block">
+                    <div class="nnc-footer__item">
                         <?php dynamic_sidebar( 'cherry_blog_footer_section_4' )?>
                     </div>
                 <?php endif; ?>
@@ -52,7 +52,7 @@
 
 
 
-<footer class="footer-bottom pt-3 pb-3 bg-white">
+<footer class="footer-bottom pt-3 pb-3">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 d-flex align-items-center justify-content-center">
